@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saint"
+        android:text="save internal" />
+
+    <Button
+        android:id="@+id/button2"
+
+        android:onClick="saExt"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save external" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="lodInt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="load internal" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="lodExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="load External" />
+
+</LinearLayout>
